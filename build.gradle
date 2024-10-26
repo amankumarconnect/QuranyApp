@@ -16,6 +16,7 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        jcenter() // Use cautiously, as this is deprecated
         maven { url 'https://jitpack.io' }
         maven {
             url "https://plugins.gradle.org/m2/"
